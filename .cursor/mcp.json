@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "postAddNotice": "You will need to provide your API_KEY as an environment variable CONTEXT7_API_KEY"
+    },
+    "serena": {
+      "command": "uvx",
+      "args": [
+        "mcp",
+        "serve",
+        "@upstash/serena-mcp"
+      ]
+    }
+  }
+}
